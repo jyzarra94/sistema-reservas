@@ -1,0 +1,93 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.content-box {
+	background-color: white;
+	padding: 2rem;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	width: 80%;
+	max-width: 900px;
+	text-align: center;
+}
+
+.content-box h1 {
+	margin-top: 0;
+	text-align: center;
+}
+
+.reservation-list {
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	padding: 1rem;
+	text-align: left;
+}
+
+.reservation-list table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.reservation-list th, .reservation-list td {
+	padding: 0.5rem;
+	text-align: center;
+	border-bottom: 1px solid #DDD
+}
+
+.reservation-list th {
+	background-color: #F2F2F2;
+}
+
+.btn {
+	display: block;
+	padding: 0.75rem 1rem;
+	background-color: #007BFF;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 1rem;
+}
+
+.btn-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+
+.btn {
+	display: block;
+	padding: 0.75rem 1rem;
+	background-color: #007BFF;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 1rem;
+}
+
+.btn-reservation {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1rem;
+}
+
+.btn-reservation a {
+	display: block;
+	padding: 0.75rem 1rem;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 1rem;
+}
